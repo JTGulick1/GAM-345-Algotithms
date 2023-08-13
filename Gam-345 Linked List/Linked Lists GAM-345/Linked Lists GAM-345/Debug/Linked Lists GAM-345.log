@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\JT\source\repos\Linked Lists GAM-345\Linked Lists GAM-345\GAM345LinkedList.h(49,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\JT\source\repos\Linked Lists GAM-345\Linked Lists GAM-345\GAM345LinkedList.h(45): message : while compiling class template member function 'int GAM345::LinkedList<TestElement>::erase(int)'
+C:\Users\JT\source\repos\Linked Lists GAM-345\Linked Lists GAM-345\Main.cpp(25): message : see reference to function template instantiation 'int GAM345::LinkedList<TestElement>::erase(int)' being compiled
+C:\Users\JT\source\repos\Linked Lists GAM-345\Linked Lists GAM-345\Main.cpp(20): message : see reference to class template instantiation 'GAM345::LinkedList<TestElement>' being compiled
+C:\Users\JT\source\repos\Linked Lists GAM-345\Linked Lists GAM-345\GAM345LinkedList.h(62): warning C4715: 'GAM345::LinkedList<TestElement>::erase': not all control paths return a value
+  Linked Lists GAM-345.vcxproj -> C:\Users\JT\source\repos\Linked Lists GAM-345\Debug\Linked Lists GAM-345.exe

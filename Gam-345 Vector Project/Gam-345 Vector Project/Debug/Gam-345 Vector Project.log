@@ -1,0 +1,17 @@
+﻿  Main.cpp
+C:\Users\JT\gam-345-john-gulick\Gam-345 Vector Project\Gam-345 Vector Project\GAM345Vector.h(108,1): error C2440: 'return': cannot convert from 'int' to 'T &'
+          with
+          [
+              T=TestElement
+          ]
+C:\Users\JT\gam-345-john-gulick\Gam-345 Vector Project\Gam-345 Vector Project\GAM345Vector.h(104): message : while compiling class template member function 'T &GAM345::Vector<T>::operator [](int)'
+          with
+          [
+              T=TestElement
+          ]
+C:\Users\JT\gam-345-john-gulick\Gam-345 Vector Project\Gam-345 Vector Project\Main.cpp(27): message : see reference to function template instantiation 'T &GAM345::Vector<T>::operator [](int)' being compiled
+          with
+          [
+              T=TestElement
+          ]
+C:\Users\JT\gam-345-john-gulick\Gam-345 Vector Project\Gam-345 Vector Project\Main.cpp(19): message : see reference to class template instantiation 'GAM345::Vector<TestElement>' being compiled

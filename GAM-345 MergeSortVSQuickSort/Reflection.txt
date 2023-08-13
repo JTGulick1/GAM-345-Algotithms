@@ -1,0 +1,15 @@
+1.Which data structure did you decide to use? Did your choice make specific portions of your quicksort implementation more or less difficult to implement?
+I chose to use a vector data structure for both sorts because in the quicksort function I found it was more easy to sort a vector then a linked list.
+Because if I used a linked list it would have been more difficult having to deal with pointers where if I just used a vector I would just have to use one pointer.
+
+2.In your quicksort algorithm, how did you choose a pivot element? Why did you make this decision?
+I choose to use the last element as my pivot for the main reason of in the videos dave posted he also chose to make the pivot the last element.
+
+3.For a general case of random elements, which sort function runs faster? Provide evidence to support your claim. Are there specific portions of either algorithm that you feel could be re-written in a more efficient way?
+QuickSort runs faster because it's runtime is O(n log n) and mergesort's runtime is Olog(n) which means QuickSort is faster.
+
+4.Are there cases when your quicksort algorithm would run faster than your mergesort algorithm? Provide evidence to support your claim.
+Since QuickSort is already faster then Mergesort so must functions allow QuickSort to be faster.
+
+5.Are there cases when your mergesort algorithm would run faster than your quicksort algorithm? Provide evidence to support your claim.
+Merge Sort can run faster under a few chances, mergesort works better with longer algotithms then a quicksort function does I can support this because merge sort breaks the algorithm into 2 then sorts it while quicksort goes off a pivot point and repeats.
